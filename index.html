@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <style>
+      .home-image {
+        background-image: url("assets/image/rb.jpg");
+        background-repeat: no-repeat;
+        background-position: -250px -90px;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 68, 0, 0.963);
+        width: 350px;
+        height: 350px;
+        background-color: aqua;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body class="bg-light">
+    <div class="container-fluid container-xxl">
+      <div class="row">
+        <!-- navbar strat -->
+        <nav class="navbar navbar-light bg-light fixed-top shadow-sm">
+          <div class="container-lg">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="#"
+              >Rouzbeh Rahbar</a
+            >
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary btn-danger px-3"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-list"></i>
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li><a class="dropdown-item" href="#home">Home</a></li>
+                <li><a class="dropdown-item" href="#about">About</a></li>
+                <li><a class="dropdown-item" href="#services">Services</a></li>
+                <li>
+                  <a class="dropdown-item" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#testimonials">Testimonials</a>
+                </li>
+                <li><a class="dropdown-item" href="#contact">Cantact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar end -->
+
+      <!-- home section start -->
+      <section class="home py-5" id="home">
+        <div class="container-lg">
+          <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0">
+              <div class="home-image"></div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+              <div class="home-text">
+                <p class="text-muted mb-1">Hello I'm a</p>
+                <h1 class="text-danger text-uppercase fs-1 fw-bold">
+                  Web Developer
+                </h1>
+                <h2 class="fs-4">Rouzbeh Rahbar</h2>
+                <p class="mt-4 text-muted">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quidem, doloremque.
+                </p>
+                <a href="#portfolio" class="btn btn-danger px-3 mt-3"
+                  >My Works</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- home section end -->
+
+      <!-- about section start -->
+      <section class="about py-5" id="about">
+        <div class="container-lg py-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">About Me</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-text">
+                <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet.</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae, et.Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Repudiandae, et.Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Repudiandae, et.
+                </p>
+              </div>
+              <div class="row text-center text-uppercase my-3">
+                <div class="col-sm-4">
+                  <div class="fact-item">
+                    <h4 class="fs-1 fw-bold">100</h4>
+                    <p class="text-muted">Projects Copleted</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="fact-item">
+                    <h4 class="fs-1 fw-bold">95</h4>
+                    <p class="text-muted">Happy Clients</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="fact-item">
+                    <h4 class="fs-1 fw-bold">95</h4>
+                    <p class="text-muted">Positive Reviews</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col lg-12 d-flex align-items-center">
+                  <a href="#" class="btn px-3 btn-danger me-5">Download CV</a>
+                  <div class="social-links">
+                    <a
+                      href="https://github.com/rouzbeh-rahbar"
+                      class="text-dark me-2"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="" class="text-dark me-2"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a href="" class="text-dark me-2"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href="" class="text-dark me-2"
+                      ><i class="bi bi-twitter"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0">
+              <div class="skill-item mb-4">
+                <h3 class="fs-6">HTML</h3>
+                <div class="progress" style="height: 5px">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-4">
+                <h3 class="fs-6">CSS</h3>
+                <div class="progress" style="height: 5px">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-4">
+                <h3 class="fs-6">BOOTSTRAP</h3>
+                <div class="progress" style="height: 5px">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 60%"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-4">
+                <h3 class="fs-6">JAVA SCRIPT</h3>
+                <div class="progress" style="height: 5px">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 30%"
+                    aria-valuenow="30"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item mb-4">
+                <h3 class="fs-6">REACT</h3>
+                <div class="progress" style="height: 5px">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 10%"
+                    aria-valuenow="10"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section end -->
+
+      <!-- services section start 21:17-->
+      <!-- https://www.youtube.com/watch?v=viF2sRr0Amk&list=PLJAFEg3vkcQOsIqI5mzirso0lkbnGlaAu&index=5 -->
+      <!-- services section end -->
+    </div>
+    <!--  Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
