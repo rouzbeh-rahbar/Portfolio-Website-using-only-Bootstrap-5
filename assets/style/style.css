@@ -1,0 +1,14 @@
+.home-image {
+    background-image: url("../image/rb.jpg");
+    background-repeat: no-repeat;
+    background-position: -250px -90px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 68, 0, 0.963);
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+  }
+  .font-handwrite {
+    font-family: "Great Vibes", cursive;
+    font-family: "Rock Salt", cursive;
+  }
